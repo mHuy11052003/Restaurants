@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SmartRes.Server.props" />
+</Project>
