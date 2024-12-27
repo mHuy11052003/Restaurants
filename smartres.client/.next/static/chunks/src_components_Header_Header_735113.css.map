@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/Header/Header.css"],"sourcesContent":[".custom-popover-noti .MuiPopover-paper {\r\n  width: 500px !important; /* Đặt độ rộng cho Popover */\r\n  max-width: 90vw !important; /* Giới hạn chiều rộng tối đa */\r\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Thêm hiệu ứng bóng đổ nhẹ */\r\n  border-radius: 8px; /* Bo góc mềm mại cho Popover */\r\n  padding: 10px; /* Thêm padding cho Popover */\r\n}\r\n"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 8, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

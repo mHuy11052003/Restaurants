@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file://B%3A/graduation-project/smartres.client/src/pages/_app.js"],"sourcesContent":["// src/pages/_app.js\r\nimport { ThemeProvider } from \"@mui/material/styles\";\r\nimport CssBaseline from \"@mui/material/CssBaseline\";\r\nimport theme from \"@/styles/theme.js\"; // Đường dẫn đến file theme.js\r\n\r\nexport default function MyApp({ Component, pageProps }) {\r\n  return (\r\n    <ThemeProvider theme={theme}>\r\n      <CssBaseline />\r\n      <Component {...pageProps} />\r\n    </ThemeProvider>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,oBAAoB;;;;;AAGpB,gMAAuC,8BAA8B;AAFrE;AACA;;;;;AAGe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACpD,qBACE,uIAAC,iMAAA,CAAA,gBAAa;QAAC,OAAO,+GAAA,CAAA,UAAK;;0BACzB,uIAAC,wJAAA,CAAA,UAAW;;;;;0BACZ,uIAAC;gBAAW,GAAG,SAAS;;;;;;;;;;;;AAG9B"}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

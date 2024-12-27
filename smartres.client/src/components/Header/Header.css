@@ -1,0 +1,7 @@
+.custom-popover-noti .MuiPopover-paper {
+  width: 500px !important; /* Đặt độ rộng cho Popover */
+  max-width: 90vw !important; /* Giới hạn chiều rộng tối đa */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Thêm hiệu ứng bóng đổ nhẹ */
+  border-radius: 8px; /* Bo góc mềm mại cho Popover */
+  padding: 10px; /* Thêm padding cho Popover */
+}

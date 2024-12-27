@@ -1,0 +1,31 @@
+2. Giải thích chi tiết từng thư mục
+/Core: Các thành phần cốt lõi của ứng dụng
+Entities: Chứa các entity (thực thể) của hệ thống, thường là các lớp mô tả dữ liệu trong cơ sở dữ liệu.
+Interfaces: Chứa các interface cho các lớp dịch vụ, repository hoặc các thành phần khác.
+Services: Các lớp dịch vụ chứa logic nghiệp vụ cốt lõi.
+Specifications: Nếu bạn sử dụng mô hình Specification, đây là nơi chứa các điều kiện lọc, tìm kiếm cho các truy vấn.
+DTOs (Data Transfer Objects): Các đối tượng chuyển dữ liệu (DTO) được sử dụng để truyền tải dữ liệu giữa các tầng.
+Exceptions: Các lớp xử lý lỗi tùy chỉnh.
+/Infrastructure: Các thành phần về cơ sở hạ tầng (đọc/ghi dữ liệu, giao tiếp với hệ thống bên ngoài)
+Data: Chứa DbContext và các lớp cấu hình EF Core.
+Repositories: Các lớp repository truy cập dữ liệu (thực thi các truy vấn).
+Configurations: Các cấu hình liên quan đến EF Core (mappings, cấu hình các entity).
+Migrations: Chứa các file migration của Entity Framework để thay đổi cấu trúc cơ sở dữ liệu.
+/Application: Các dịch vụ ứng dụng và logic nghiệp vụ cấp cao
+Services: Các lớp dịch vụ thực thi các nghiệp vụ của ứng dụng (không phụ thuộc vào bất kỳ tầng nào như repository).
+Interfaces: Chứa các interface cho các lớp dịch vụ ứng dụng.
+Features: Các tính năng cụ thể, chứa các class cho các yêu cầu API (Controllers, commands, queries).
+/WebApi: Các thành phần liên quan đến API và giao diện người dùng
+Controllers: Các controller API, nơi xử lý các yêu cầu HTTP.
+Models: Các lớp mô hình dữ liệu truyền vào và truyền ra từ API.
+Dtos: Các lớp DTO chuyển dữ liệu qua lại giữa client và server.
+Mappings: Cấu hình chuyển đổi giữa entities và DTOs, thường sử dụng AutoMapper.
+Swagger: Cấu hình Swagger để tạo tài liệu API tự động.
+Filters: Các lớp filter tùy chỉnh (validation, authorization, exception handling).
+/Shared: Các thành phần dùng chung
+Utilities: Các lớp tiện ích, helper functions.
+Extensions: Các extension methods.
+Middlewares: Các middleware cho việc xử lý các yêu cầu HTTP như logging, exception handling, etc.
+/Tests: Các bài kiểm tra
+UnitTests: Các bài kiểm tra đơn vị cho từng phần trong ứng dụng.
+IntegrationTests: Các bài kiểm tra tích hợp cho toàn bộ hệ thống.

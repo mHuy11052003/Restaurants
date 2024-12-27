@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file://B%3A/graduation-project/smartres.client/src/styles/theme.js"],"sourcesContent":["// styles/theme.js\r\nimport { createTheme } from \"@mui/material/styles\";\r\n\r\nconst demoTheme = createTheme({\r\n  cssVariables: { colorSchemeSelector: \"data-toolpad-color-scheme\" },\r\n  colorSchemes: { light: true, dark: true },\r\n});\r\n\r\nexport default demoTheme;\r\n"],"names":[],"mappings":"AAAA,kBAAkB;;;;AAClB;;AAEA,MAAM,YAAY,CAAA,GAAA,6MAAA,CAAA,cAAW,AAAD,EAAE;IAC5B,cAAc;QAAE,qBAAqB;IAA4B;IACjE,cAAc;QAAE,OAAO;QAAM,MAAM;IAAK;AAC1C;uCAEe"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 53, "column": 0}, "map": {"version":3,"sources":["file://B%3A/graduation-project/smartres.client/src/pages/_app.js"],"sourcesContent":["// src/pages/_app.js\r\nimport { ThemeProvider } from \"@mui/material/styles\";\r\nimport CssBaseline from \"@mui/material/CssBaseline\";\r\nimport theme from \"@/styles/theme.js\"; // Đường dẫn đến file theme.js\r\nimport PrimarySearchAppBar from \"../components/appbar\";\r\n\r\nexport default function MyApp({ Component, pageProps }) {\r\n  return (\r\n    <ThemeProvider theme={theme}>\r\n      <PrimarySearchAppBar />\r\n      <CssBaseline />\r\n      <Component {...pageProps} />\r\n    </ThemeProvider>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,oBAAoB;;;;;AAGpB,gMAAuC,8BAA8B;AACrE;AAHA;AACA;;;;;;AAIe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACpD,qBACE,uIAAC,iMAAA,CAAA,gBAAa;QAAC,OAAO,+GAAA,CAAA,UAAK;;0BACzB,uIAAC,oHAAA,CAAA,UAAmB;;;;;0BACpB,uIAAC,wJAAA,CAAA,UAAW;;;;;0BACZ,uIAAC;gBAAW,GAAG,SAAS;;;;;;;;;;;;AAG9B"}},
+    {"offset": {"line": 95, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
